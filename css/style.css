@@ -359,6 +359,12 @@ footer .outer .button {
   padding: 10px 20px;
   border: 1px solid #FFF;
   cursor: pointer;
+  transition: 0.3s all ease;
+}
+footer .outer .button:hover {
+  background: linear-gradient(113deg, #984D38 -30.3%, #181E41 58.12%);
+  transition: 0.3s all ease;
+  transform: scale(1.1);
 }
 footer .outer .button img {
   width: 100%;
@@ -427,4 +433,8 @@ footer .footer .credits a {
   font-weight: 700;
   line-height: 180%;
   letter-spacing: 0.3px;
+  text-decoration: none;
+}
+footer .footer .credits a:hover {
+  color: #984D38;
 }/*# sourceMappingURL=style.css.map */

@@ -359,6 +359,12 @@ footer{
             padding: 10px 20px;
             border: 1px solid #FFF;
             cursor: pointer;
+            transition: 0.3s all ease;
+            &:hover{
+                background: linear-gradient(113deg, #984D38 -30.3%, #181E41 58.12%);
+                transition: 0.3s all ease;
+                transform: scale(1.1);
+            }
             img{
                 width: 100%;
                 max-width: 20px;
@@ -425,6 +431,10 @@ footer{
                 font-weight: 700;
                 line-height: 180%;
                 letter-spacing: 0.3px;
+                text-decoration: none;
+                &:hover{
+                    color: #984D38;
+                }
             }
         }
     }
